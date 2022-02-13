@@ -1,28 +1,33 @@
-# Bootstrap Boilerplate
+# Final-Project-MFW
 
 ## Description
 
-A basic bootstrap boilerplate to start a mobile-friendly website
+Final project for Mobile Friendly Websites
 
-## Prerequistes
+## Requirements
 
-- A cloned project folder started on [Github](https://github.com/)
-- A basic understanding of [Bootstrap](https://getbootstrap.com/)
-- A strong understanding of HMTL5 and CSS
+- Github portfolio repo (to provide link to Final-Project-MFW)
+- Bootstrap Navbar
+- Bootstrap Carousel or Jumbotron
+- Bootstrap accordion or thumbnails
+- Self-written content
+- Link to another self-authored website
+- 4 Font Awesome social media icons
+- 2 Google Fonts
+- Customized contact form (design only, no functionality)
 
 ## Installation
 
 - Git [git](https://gitscm.com)
 - A Terminal
 - Text editor or [VS Code](https://code.visualstudio.com/)
-- Create folder 'Bootstrap Boilerplate' with: file `index.html`, subfolder `CSS` with file `style.css` in it, empty subfolder `JS` for future JS, subfolder `IMG` for future images
-- Clone repository `git clone <repo>`
-- In Github make sure to check box to create readme file
-- in VSCode, open folder 'Bootstrap Boilerplate'
+- Create repo 'Final-Project-MFW' with 'Bootstrap Boilerplate' template
+- VS code: Open folder to contain local version of repo or in terminal be in locwl directory to contain repo
+- Terminal: Clone repository `git clone <repo>`
 
 ## Contributing
 
-On Github [Bootstrap Boilerplate](https://github.com/niiicedave/bootstrap-boilerplate)
+On Github [Final-Project-MFW](https://github.com/niiicedave/final-project-mfw.git)
 
 ## License
 
@@ -30,7 +35,7 @@ Open Source code
 
 ## Citation
 
-niiicedave (2022) Bootstrap Boilerplate (Version 1.0) [Source code](https://getbootstrap.com/docs/5.1/getting-started/introduction/#starter-template)
+niiicedave (2022) Final-Project-MFW (Version 1.0) [Source code](https://getbootstrap.com/docs/5.1/getting-started/introduction/#starter-template)
 
 ## Contact
 
