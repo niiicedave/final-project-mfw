@@ -1,26 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;700&family=Rowdies:wght@400;700&display=swap');
+
+.rowdies400{
+    font-family: 'Rowdies', cursive;
+    font-weight: 400;
+}
+
+.rowdies700{
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+}
+
+.hind300{
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
+}
+
+.hind700{
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+}
+
+.letterspace1{
+    letter-spacing: .02rem;
+}
+
+.letterspace2{
+    letter-spacing: .05rem;;
+}
+
 /*solution for carousel image fitting*/
 /*source https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/*/
 .carousel-inner .carousel-item img {
     object-fit: cover;
     object-position: center;
-    height: 80vh;
+    height: 60vh;
     overflow: hidden;
 }
 
-/*linear gradient makes carousel captions and controls easy to see*/
+/*linear gradient as pseudo element makes carousel captions and controls easy to see*/
 /*source https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/*/
 .carousel-inner .carousel-item:before {
     content: "";
-    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 5, 0, 0.5));
     display: block;
     position: absolute;
     top: 0;
     width: 100vw;
     height: 100vh;
 }
-
-.col-2 {
-    height: 80vh;
-    overflow:scroll;
-}
-
