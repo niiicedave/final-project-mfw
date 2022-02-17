@@ -1,32 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;700&family=Rowdies:wght@400;700&display=swap');
 
-.rowdies400{
+.rowdies400 {
     font-family: 'Rowdies', cursive;
     font-weight: 400;
 }
 
-.rowdies700{
+.rowdies700 {
     font-family: 'Rowdies', cursive;
     font-weight: 700;
 }
 
-.hind300{
+.hind300 {
     font-family: 'Hind', sans-serif;
     font-weight: 300;
 }
 
-.hind700{
+.hind700 {
     font-family: 'Hind', sans-serif;
     font-weight: 700;
 }
 
-.letterspace1{
+.letterspace1 {
     letter-spacing: .02rem;
 }
 
-.letterspace2{
-    letter-spacing: .05rem;;
+.letterspace2 {
+    letter-spacing: .05rem;
+    ;
 }
+
+.textshadow-1 {
+    text-shadow: 0 0 0.5em #290300;
+}
+
+.inlinelinks {
+    color: green;
+    text-decoration: none;
+}
+
+.spacehogs {
+    margin: 12px
+}
+
+
 
 /*solution for carousel image fitting*/
 /*source https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/*/
