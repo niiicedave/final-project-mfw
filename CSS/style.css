@@ -33,8 +33,22 @@
     text-shadow: 0 0 0.5em #290300;
 }
 
-.inlinelinks {
+.textwhiteplease {
+    color: #ffffff;
+}
+
+.inlinelinksgreen {
     color: green;
+    text-decoration: none;
+}
+
+.inlinelinkswhite {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.inlinelinksblack {
+    color: #000000;
     text-decoration: none;
 }
 
@@ -42,25 +56,59 @@
     margin: 12px
 }
 
+.sizepagebrand {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .sizepagebrand {
+        font-size: 1.3rem;
+    }
+}
+
+.twocolumns {
+    columns: 2;
+}
+
+@media only screen and (max-width: 600px) {
+    .twocolumns {
+        columns: 1;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .twocolumns {
+        columns: 3;
+    }
+}
 
 
-/*solution for carousel image fitting*/
-/*source https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/*/
-.carousel-inner .carousel-item img {
+/*FIXES*/
+
+/* source https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/  */
+.topimagefit {
     object-fit: cover;
     object-position: center;
-    height: 60vh;
+    height: 80vh;
     overflow: hidden;
 }
 
-/*linear gradient as pseudo element makes carousel captions and controls easy to see*/
+
+/*linear gradient pseudo element - fix for background image overwhelming menus*/
 /*source https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/*/
 .carousel-inner .carousel-item:before {
     content: "";
-    background-image: linear-gradient(to bottom, transparent, rgba(0, 5, 0, 0.5));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3));
     display: block;
     position: absolute;
     top: 0;
     width: 100vw;
     height: 100vh;
 }
+
+/* fix for dim nav-links https://gist.github.com/plembo/be95df835bf5fd48f8043645f979c0378 */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+/* fix for dim toggler icon*/
